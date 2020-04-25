@@ -1,0 +1,30 @@
+#include <bits/stdc++.h> 
+using namespace std; 
+bool isPrime(long int a) { 
+    long int k = sqrt(a);
+    for (long int i = 1; i <= k; i++)
+    { 
+        if(a%i == 0) 
+        {
+            return false;
+        } 
+ 
+    } 
+    return true; 
+ 
+} 
+int main() { 
+    int T; 
+    cin>>T; 
+    while(T--){ 
+       long  int a, b; 
+        cin>>a>>b; 
+        for (long int i = a; i <= b; i++) { 
+            if (isPrime(i) && i != 1)
+            cout<<i<<endl;
+        } 
+            cout<<endl;
+        } 
+            return 0; 
+ 
+}
