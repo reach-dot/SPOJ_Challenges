@@ -9,6 +9,8 @@ int main() {
 	    cin>>n;
 	    if (n != 42) {
 	        cout<<n<<endl;
+		if (n!=41 || n<=17)
+		cout<<endl;
 	    }
 	    else {
 	        t = 0;
