@@ -12,6 +12,29 @@ int main() {
 		if (n!=41 || n<=17)
 		cout<<endl;
 	    }
+	    while (t) {
+	    int n;
+	    cin>>n;
+	    if (n != 42) {
+	        cout<<n<<endl;
+		if (n!=41 || n<=17)
+		cout<<endl;
+	    }
+	    while (t) {
+	    int n;
+	    cin>>n;
+	    if (n != 42) {
+	        cout<<n<<endl;
+		if (n!=41 || n<=17)
+		cout<<endl;
+	    }while (t) {
+	    int n;
+	    cin>>n;
+	    if (n != 42) {
+	        cout<<n<<endl;
+		if (n!=41 || n<=17)
+		cout<<endl;
+	    }
 	    else {
 	        t = 0;
 	    }
