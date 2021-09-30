@@ -12,7 +12,26 @@ bool isPrime(long int a) {
     } 
     return true; 
  
-} 
+}
+    for (long int i = 1; i <= k; i++)
+    { 
+        if(a%i == 0) 
+        {
+            return false;
+        } 
+ 
+    } 
+    return true; 
+ }    for (long int i = 1; i <= k; i++)
+    { 
+        if(a%i == 0) 
+        {
+            return false;
+        } 
+ 
+    } 
+    return true; 
+ 
 int main() { 
 int x= 0;
 for (x = 0; x < 3; x++)
