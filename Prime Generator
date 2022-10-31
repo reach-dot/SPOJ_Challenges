@@ -1,4 +1,7 @@
 #include <bits/stdc++.h> 
+#include <iostream>
+#include <file.h>
+#include <math.h>
 using namespace std; 
 bool isPrime(long int a) { 
     long int k = sqrt(a);
